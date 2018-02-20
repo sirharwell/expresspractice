@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var methodOverride = require('method-override')
 
 var index = require('./routes/index');
-var moives = require('./routes/movies')
+var movies = require('./routes/movies');
 
 var app = express();
 
